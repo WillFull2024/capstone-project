@@ -1,0 +1,83 @@
+/*
+  ========================================
+  Header Area
+  ========================================
+*/
+#title {
+    color: crimson;
+    background-color: midnightblue;
+}
+
+.breadcrumb {
+    background-color: black;
+}
+
+#superhero-info {
+    text-align: center;
+    font: 25px;
+    color: navy;    
+}
+
+#gameOver {
+    color: maroon;
+}
+
+/*
+========================================
+Game Play Area
+========================================
+*/
+
+#playBtn {
+    background-color: gold;
+    margin-bottom: 10px;      
+}
+
+#instructionsBtn {
+    background-color: paleturquoise;
+    margin-left: 15px;
+}
+
+#newGame {
+    background: linear-gradient(1deg, black, transparent);
+    color: honeydew;
+    width: 50%;
+    margin: 10px;
+}
+
+/*
+========================================
+Body, Paragraphs, Buttons, Pictures
+========================================
+*/
+
+body {    
+    background: lightgrey;    
+}
+
+p {
+    font: 25px;
+    color: red;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+} 
+
+button {
+    border-radius: 30px;
+}
+
+.btn {
+    border-radius: 50% 50% 50% 50%;    
+    padding: 12px;
+    white-space: normal;
+}            
+.choice {
+    color: rgb(255, 0, 119);
+    background-color: aqua;  
+}
+
+#carouselPic {
+    height: 750px;
+    width: 750px;      
+} 
