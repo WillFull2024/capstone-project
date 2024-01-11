@@ -12,10 +12,10 @@ const quizBank = []
 let question1 = new Question("How would you save a cat in a tree?", [{ A: 'Fly up and get it, releasing it safely on the ground.', weight: 25 }, { B: 'Jump up, get it & release it safely on the ground.', weight: 20 }, { C: 'Use something to transport, etc., it out of the tree.', weight: 15 }, { D: 'Destroy the tree.', weight: 10 }, { E: 'Shoot the cat for bothering you with its whining.', weight: 5 }]);
 quizBank.push(question1);
 
-let question2 = new Question("What’s the best weapon?", [{ A: 'Your mind.', weight: 20 }, { B: 'Yourself.', weight: 25 }, { C: 'A gun.', weight: 5 }, { D: 'Your handmade or custom weapon of choice.', weight: 15 }, { E: 'Anything you can get your hands on.', weight: 10 }]);
+let question2 = new Question("What is the best weapon?", [{ A: 'Your mind.', weight: 20 }, { B: 'Yourself.', weight: 25 }, { C: 'A gun.', weight: 5 }, { D: 'Your handmade or custom weapon of choice.', weight: 15 }, { E: 'Anything you can get your hands on.', weight: 10 }]);
 quizBank.push(question2);
 
-let question3 = new Question("Who’s the most important person to you?", [{ A: 'Your spouse.', weight: 25 }, { B: 'Your child(ren).', weight: 15 }, { C: 'Your parent(s).', weight: 20 }, { D: 'Your sibling/friend(s).', weight: 10 }, { E: 'Yourself.', weight: 5 }]);
+let question3 = new Question("Who is the most important person to you?", [{ A: 'Your spouse.', weight: 25 }, { B: 'Your child(ren).', weight: 15 }, { C: 'Your parent(s).', weight: 20 }, { D: 'Your sibling/friend(s).', weight: 10 }, { E: 'Yourself.', weight: 5 }]);
 quizBank.push(question3);
 
 let question4 = new Question("If you were God, what would you do first?", [{ A: 'Punish the guilty.', weight: 20 }, { B: 'Create complete, worldwide peace.', weight: 25 }, { C: 'Create something new.', weight: 15 }, { D: 'Destroy life on an epic scale!', weight: 10 }, { E: 'Whatever you wanted!', weight: 5 }]);

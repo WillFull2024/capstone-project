@@ -111,32 +111,32 @@ $(() => { // This contains all of the page elements. By containing everthing in 
                 $('#superhero-info').append('<div><h2>You are Superman!!!</h2><p>You are the greatest superhero ever! You can leap tall buildings in a single bound, faster than a locomotive, etc.! You are the at the top of the list of moral character with power unmatched by any other! Pat yourself on the back for being the best!!</p></div>');
                 appendImages();
             }
-            else if (weightScore > 230 && weightScore < 250) {
+            else if (weightScore > 239 && weightScore < 250) {
                 results = 1;
                 $('#superhero-info').append('<div><h2>You are Wonder Woman!!</h2><p>You are an Amazon goddess! The foremost female in the Justice League! You have power that is matched by hardly any! Your only limitation seems to be your own knowledge of your abilities!</p></div>');
                 appendImages();
             }
-            else if (weightScore > 219 && weightScore < 231) {
+            else if (weightScore > 229 && weightScore < 236) {
                 results = 2;
                 $('#superhero-info').append('<div><h2>You are Captain America!!</h2><p>Mr. America! The greatest patriot of all time! Hand to hand combat you have too few rivals to mention. Possibly the greatest super soldier in Marvel, DC or any platform worth mentioning, you make kicking butt and bein the greatest boyscott easy!</p></div>');
                 appendImages();
             }
-            else if (weightScore == 195) {
+            else if (weightScore == 215) {
                 results = 3;
                 $('#superhero-info').append('<div><h2>You are the Black Panther!!</h2><p>Your Highness! The king of Wakanda by day and an Avenger by night or day, whenever the Wakanda or theworld needs you. With tech that rivals or outdoes Iron Man, Batman or even some space civilizations! Wakanda Forever!!</p></div>');
                 appendImages();
             }
-            else if (weightScore == 190) {
+            else if (weightScore == 200) {
                 results = 4;
                 $('#superhero-info').append('<div><h2>You are Storm!</h2><p>Your power and prowess are of legend. Your leadership within the X-men keep it running like a well oiled machine. Without your balance of love and firmness, the team would be sure to fall apart. Your control over the elements is of legend and rivals even that of Thor!</p></div>');
                 appendImages();
             }
-            else if (weightScore == 200) {
+            else if (weightScore == 210) {
                 results = 5;
                 $('#superhero-info').append('<div><h2>You are Supergirl!</h2><p>Kara Zor-el! Powergirl, one of your other names is very accurate. Your powers rival that of your cousin. Some even say they exceed his! With power like that, no one wants to get in your way! You are far too good to let it go to your head though!</p></div>');
                 appendImages();
             }
-            else if (weightScore > 209 && weightScore < 220) {
+            else if (weightScore > 219 && weightScore < 226) {
                 results = 6;
                 $('#superhero-info').append('<div><h2>You are Iron Man!!</h2><p>Tony Stark! One of the top minds in the Marvel universe! Brilliant and rich! You could probably make a suit of armor out of a toaster, lawnmower and a pair of rubber gloves! Your armor and brilliance puts you on par with almost any hero or villain!</p></div>');
                 appendImages();
@@ -146,68 +146,68 @@ $(() => { // This contains all of the page elements. By containing everthing in 
                 $('#superhero-info').append('<div><h2>You are Batman!!</h2><p>The greatest mind in DC,hands down! Even Superman has to take 2nd to you in this area! Villains fear you sometimes more than Superman! You can defeat anyone given prep time! Physically, you can hang with just about anyone, even the super powered! Your kung fu is just that damn good!! Dunnanananananananah, Batman!!</p></div>');
                 appendImages();
             }
-            else if (weightScore == 175) {
+            else if (weightScore == 190) {
                 results = 8;
                 $('#superhero-info').append('<div><h2>You are Captain Marvel!!</h2><p>Ms. Marvel. Your power is of legend. You took a headbutt from Thanos and looked him in the eye like, was that it?! You are often described as the strongest Avenger for good reason. Even Thor or Hulk would have to take a long rest and eat some extra Wheaties to be able to get in the ring with you!</p></div>');
                 appendImages();
             }
-            else if (weightScore == 170) {
+            else if (weightScore > 149 && weightScore < 156) {
                 results = 9;
                 $('#superhero-info').append('<div><h2>You are Black Widow!</h2><p>Natasha Romanoff,possibly the greatest spy ever! James Bond aint got nothin on you! You hang with the most powerful in the world on a regular without batting an eye! No shame in your game,you are about business and the mission so do not get in your way!</p></div>');
                 appendImages();
             }
-            else if (weightScore == 180) {
+            else if (weightScore > 179 && weightScore < 186) {
                 results = 10;
                 $('#superhero-info').append('<div><h2>You are Batgirl!</h2><p>The 2nd to don the legendary cowl and cape, but make no mistake, you hold your own! Probably the top female vigilante of all time!! You have taken down the super powered, such as Supergirl, nearly killing her! Chip off the old cowl...</p></div>');
                 appendImages();
             }
-            else if (weightScore > 164 && weightScore < 190) {
+            else if (weightScore == 195) {
                 results = 11;
                 $('#superhero-info').append('<div><h2>You are Thor!!</h2><p>The God of Thunder! The Lord of Lightning! With Mjolnir or Stormbreaker there are not many of any kind that can stand against you! Truly you are the greatest of Asgard and could drink any other hero under the table! Odin!</p></div>');
                 appendImages();
                 $('#gameDiv').hide();
-            }
-            else if (weightScore > 151 && weightScore < 164) {
+            }        
+            else if (weightScore > 159 && weightScore < 166) {
                 results = 12;
                 $('#superhero-info').append('<div><h2>You are Scarlet Witch!!</h2><p>The limits of your power is unknown! When Hulk and Thor are missing, you come in to replace one of them as a HEAVY HITTER on the Avengers team! Big shoes to fill, but you do it without fail! Magic and a mutant! One dangerous combo!</p></div>');
                 appendImages();
             }
-            else if (weightScore > 139 && weightScore < 151) {
+            else if (weightScore > 169 && weightScore < 176) {
                 results = 13;
                 $('#superhero-info').append('<div><h2>You are Spider-Man!!</h2><p>One of the smartest and most capable of the superheroes! Nothings seems to be outside of your ability to solve and workout. You beat all kinds of enemies that are much stronger than you and still have time to go to school! You go Spidey!</p></div>');
                 appendImages();
             }
-            else if (weightScore == 125) {
+            else if (weightScore > 119 && weightScore < 126) {
                 results = 14;
                 $('#superhero-info').append('<div><h2>You are Green Lantern!!</h2><p>The only limit you have is your own will! You are talked about at times as the most powerful hero in the DC universe because your will is your only limit. Oh and if your ring needs to be charged! I will take it! Sign me up!!</p></div>');
                 appendImages();
             }
-            else if (weightScore == 135) {
+            else if (weightScore > 139 && weightScore < 146) {
                 results = 15;
                 $('#superhero-info').append('<div><h2>You are Catwoman!!</h2><p>The best cat burglar period. Even Batman has issue with stopping you! Bad or good, that depends on your mood that day... If I need something, I am calling you! I saw a nice watch Bill Gates was wearing, can you help me out with that?!</p></div>');
                 appendImages();
             }
-            else if (weightScore > 125 && weightScore < 139) {
+            else if (weightScore > 129 && weightScore < 139) {
                 results = 16;
                 $('#superhero-info').append('<div><h2>You are Raven!!</h2><p>Your dad is the demon Trigon. His mission is to use you to come and conquer Earth. You are at constant war with losing control of your emotions and bringing about the end. You are a 2 sided coin of darkness and light, a bad-ass empath that can do most what you want... Please, just keep your cool...</p></div>');
                 appendImages();
             }
-            else if (weightScore > 111 && weightScore < 126) {
+            else if (weightScore >101  && weightScore < 120) {
                 results = 17;
                 $('#superhero-info').append('<div><h2>You are The Hulk!!</h2><p>The strongest there is! The madder you get, the stronger you get! With the power to leap miles at a time and a constant growth in strength, you are one of the greatest heroes of all time! With the brilliance of Banner to add, who can beat the Hulk?!?!!</p></div>');
                 appendImages();
             }
-            else if (weightScore > 95 && weightScore < 111) {
+            else if (weightScore > 89 && weightScore < 101) {
                 results = 18;
                 $('#superhero-info').append('<div><h2>You are Thanos!!</h2><p>The Titan! Even gods fear you! You make everyone you meet kneel or shriek away in fear! Your goal to either find the Anti-Life equation or as a mercy eliminate half of all life in the universe for the betterment of all life. You truly are the bringer of mercy or is it terror... Thanos or Darkseid(Hard to tell apart at times...), neither would you want to be in the way of.</p></div>');
                 appendImages();
             }
-            else if (weightScore > 81 && weightScore < 96) {
+            else if (weightScore > 74 && weightScore < 86) {
                 results = 19;
                 $('#superhero-info').append('<div><h2>You are Harley Quinn!!</h2><p>One of the favs of the DC universe and thoroughly sadistic, Harleen Quinzel, is a maniac who is also a brilliant psychologist! Corrupted by the Joker and dropped in the same goo that made him more psychotic, you are almost as insane as him!... Almost!</p></div>');
                 appendImages();
             }
-            else if (weightScore > 49 && weightScore < 81) {
+            else if (weightScore > 49 && weightScore < 71) {
                 results = 20;
                 $('#superhero-info').append('<div><h2>You are The Joker!!</h2><p>Probably the most insane of any criminal in any universe, you are the thorn in the side of Batman. Each criminal venture more psychotic than the previous, you make Manson look normal. Master of mischief, you give Loki a run for his money. Maybe the greatest villain of all time! Definitely top 5!</p></div>');
                 appendImages();
